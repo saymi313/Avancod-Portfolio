@@ -1,4 +1,4 @@
-import image from '../../assets/Section-Image.png'
+import image from "../../../assets/Section-Image.png"
 
 const HeroSection = () => {
   return (
@@ -29,4 +29,4 @@ const HeroSection = () => {
   )
 }
 
-export default HeroSection
+export default HeroSection;

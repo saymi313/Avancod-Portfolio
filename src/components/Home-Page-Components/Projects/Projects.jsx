@@ -1,10 +1,9 @@
-"use client"
+
 
 import { useState } from "react"
 import { FaGithub } from "react-icons/fa"
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs"
-import projectsData from "../../data/projects.json"
-
+import projectsData from "../../../data/projects.json"
 const Projects = () => {
   const { projects } = projectsData
   const [currentPage, setCurrentPage] = useState(1)
@@ -32,14 +31,14 @@ const Projects = () => {
       <div className="flex flex-col gap-4">
         {currentProjects.map((project, index) => (
           <div key={index} className="relative h-[500px] md:h-[400px]">
-            {/* Background blue div - decreased size to be visible from right and top */}
+            {/* Background blue div */}
             <div
               className={`absolute ${
                 index % 2 === 0 ? "right-[12%]" : "left-[12%]"
               } w-[45%] h-[85%] bottom-[-5%] bg-[#00386C] rounded-md z-0`}
             />
 
-            {/* Image container - positioned on top of blue div */}
+            {/* Image container */}
             <div className={`absolute ${index % 2 === 0 ? "right-[10%]" : "left-[10%]"} w-[45%] h-[115%] z-10`}>
               <img
                 src={project.image || "/placeholder.svg"}
@@ -48,7 +47,7 @@ const Projects = () => {
               />
             </div>
 
-            {/* Professional glassmorphism content with white */}
+            {/* glassmorphism content */}
             <div
               className={`absolute ${
                 index % 2 === 0 ? "left-[0%]" : "right-[0%]"
