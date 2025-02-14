@@ -14,7 +14,7 @@ const CustomerReviews = () => {
       ].map((item, index) => (
         <div 
           key={index} 
-          className={`px-6 py-10 ${index !== 3 ? "border-r border-gray-300" : ""} text-center`}
+          className={`px-2 py-10 ${index !== 3 ? "border-r border-gray-300" : ""} text-center`}
         >
           <div className="flex justify-center">
             <img src={item.img} alt={item.title} className="h-16 w-16" />

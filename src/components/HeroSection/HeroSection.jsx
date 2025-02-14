@@ -2,7 +2,7 @@ import image from '../../assets/Section-Image.png'
 
 const HeroSection = () => {
   return (
-    <section className="w-full bg-[#E1F0FF] ">
+    <section className="w-full bg-[#E1F0FF] h-screen">
       <div className="px-[10px] md:px-[80px] py-15 mx-auto ">
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
           <div className="flex flex-col justify-center space-y-4 ps-10 md:ms-0">
