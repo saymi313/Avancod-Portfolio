@@ -24,7 +24,7 @@ The UI follows a **modern and minimalistic** approach with responsive design pri
 ## 🏗️ Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/saymi313e/avancod-portfolio.git
+   git clone https://github.com/saymi313/avancod-portfolio.git
    ```
 2. Navigate to the project folder:
    ```sh
