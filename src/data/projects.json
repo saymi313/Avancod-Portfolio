@@ -1,0 +1,32 @@
+{
+    "projects": [
+      {
+        "title": "Women Empowerment Website",
+        "description": "At Avancod, we created Echoes Of Empowerment, a platform dedicated to championing women's journeys. Our mission is to provide a lifetime of support, resources, and opportunities that empower women to overcome challenges and reach their highest potential.",
+        "image": "project1.png",
+        "demoLink": "#",
+        "githubLink": "#"
+      },
+      {
+        "title": "Misty Mounts Travel Website",
+        "description": "At Avancod, we created Misty Mounts to help travelers discover hidden gems in Northern Pakistan. It offers seamless spot management with hotel and transport options. A disaster predictor ensures safety by aiding informed travel decisions.",
+        "image": "project2.png",
+        "demoLink": "#",
+        "githubLink": "#"
+      },
+      {
+        "title": "Women Empowerment Website",
+        "description": "At Avancod, we created Echoes Of Empowerment, a platform dedicated to championing women's journeys. Our mission is to provide a lifetime of support, resources, and opportunities that empower women to overcome challenges and reach their highest potential.",
+        "image": "project1.png",
+        "demoLink": "#",
+        "githubLink": "#"
+      },
+        {
+            "title": "Misty Mounts Travel Website",
+            "description": "At Avancod, we created Misty Mounts to help travelers discover hidden gems in Northern Pakistan. It offers seamless spot management with hotel and transport options. A disaster predictor ensures safety by aiding informed travel decisions.",
+            "image": "project2.png",
+            "demoLink": "#",
+            "githubLink": "#"
+        }
+    ]
+  }

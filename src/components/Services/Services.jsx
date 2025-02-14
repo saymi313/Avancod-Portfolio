@@ -5,10 +5,10 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Services = () => {
   return (
-    <div className="bg-white px-6 md:px-12 py-16">
+    <div className="bg-white px-6 md:px-12 py-16 h-screen">
       {/* Section Heading */}
       <h2 className="text-[#3ba0ff] text-lg md:text-xl text-center">WHAT WE DO</h2>
-      <p className="text-2xl md:text-4xl font-bold max-w-[550px] text-center mx-auto">
+      <p className="text-2xl md:text-4xl font-bold  text-center mx-auto my-2 text-[#00386C]">
         We provide the Perfect Solution to your business growth
       </p>
 
