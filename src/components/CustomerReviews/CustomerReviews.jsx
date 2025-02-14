@@ -1,43 +1,30 @@
-import Projects from '../../assets/project-plan.png'
-import Customer from '../../assets/Customer-Satisfaction.png'
-import Raise from '../../assets/raise.png'
-import Business from '../../assets/timeline.png'
-
+import Projects from '../../assets/project-plan.png';
+import Customer from '../../assets/Customer-Satisfaction.png';
+import Raise from '../../assets/raise.png';
+import Business from '../../assets/timeline.png';
 
 const CustomerReviews = () => {
   return (
-    <div className="grid md:grid-cols-4 grid-cols-1 py-30 gap-5 px-20 md:px-[300px]">
-      <div className="border-r border-gray-300 px-9 py-14">
-        <div className='flex justify-center'>
-          <img src={Projects}  alt="" />
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-5 md:px-20 lg:px-[300px] py-14">
+      {[
+        { img: Projects, title: "Completed Projects", value: "500+" },
+        { img: Customer, title: "Customer Satisfaction", value: "100%" },
+        { img: Raise, title: "Raised by Clients", value: "$50 M" },
+        { img: Business, title: "Years in Business", value: "05 yrs" }
+      ].map((item, index) => (
+        <div 
+          key={index} 
+          className={`px-6 py-10 ${index !== 3 ? "border-r border-gray-300" : ""} text-center`}
+        >
+          <div className="flex justify-center">
+            <img src={item.img} alt={item.title} className="h-16 w-16" />
+          </div>
+          <p className="font-bold mt-3 text-lg">{item.title}</p>
+          <h1 className="text-5xl font-bold text-[#42A4FF] mt-3">{item.value}</h1>
         </div>
-        <p className="font-bold text-center mt-3 text-[18px]">Completed Projects</p>
-        <h1 className="text-5xl font-bold text-center text-[#42A4FF] mt-3">500+</h1>
-      </div>
-      <div className="border-r border-gray-300 px-9 py-14">
-        <div className='flex justify-center'>
-          <img src={Customer}  alt="" />
-        </div>
-        <p className="font-bold text-center mt-3 text-[18px]">Customer Satisfaction</p>
-        <h1 className="text-5xl font-bold text-center text-[#42A4FF] mt-3">100%</h1>
-      </div>
-      <div className="border-r border-gray-300 px-9 py-14">
-        <div className='flex justify-center'>
-          <img src={Raise}  alt="" />
-        </div>
-        <p className="font-bold text-center mt-3 text-[18px]">Raised by Clients</p>
-        <h1 className="text-5xl font-bold text-center text-[#42A4FF] mt-3">$50 M </h1>
-      </div>
-      <div className=" px-9 py-14">
-        <div className='flex justify-center'>
-          <img src={Business}  alt="" />
-        </div>
-        <p className="font-bold text-center mt-3 text-[18px]">Years in Business</p>
-        <h1 className="text-5xl font-bold text-center text-[#42A4FF] mt-3">05 yrs</h1>
-      </div>
-     
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default CustomerReviews
+export default CustomerReviews;
