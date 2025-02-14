@@ -26,7 +26,7 @@ const CustomerReviews = () => {
           <img src={Raise}  alt="" />
         </div>
         <p className="font-bold text-center mt-3 text-[18px]">Raised by Clients</p>
-        <h1 className="text-5xl font-bold text-center text-[#42A4FF] mt-3">$50 M</h1>
+        <h1 className="text-5xl font-bold text-center text-[#42A4FF] mt-3">$50 M </h1>
       </div>
       <div className=" px-9 py-14">
         <div className='flex justify-center'>
