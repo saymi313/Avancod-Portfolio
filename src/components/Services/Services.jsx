@@ -1,8 +1,3 @@
-
-
-
-
-
 import WebDevelopment from '../../assets/Web-Development.png';
 import BlockChain from '../../assets/Blockchain.png';
 import Accounting from '../../assets/Accounting.png';
@@ -26,7 +21,7 @@ const Services = () => {
         ].map((item, index) => (
           <div
             key={index}
-            className="hover:shadow-2xl shadow-md duration-300 w-full max-w-[400px] mx-auto h-auto py-10 px-8 rounded-2xl group bg-white border border-gray-200"
+            className="hover:shadow-2xl shadow-md duration-300 w-full max-w-[400px] mx-auto h-auto py-3  md:py-10 px-0 md:px-8 rounded-2xl group bg-white border border-gray-200"
           >
             {/* Icon */}
             <div className="flex justify-center">
@@ -43,7 +38,7 @@ const Services = () => {
 
             {/* Button */}
             <div className="flex justify-center mt-6">
-              <button className="flex items-center px-5 py-3 rounded-lg bg-transparent border border-[#42A4FF] text-[#42A4FF] group-hover:bg-[#42A4FF] group-hover:text-white transition duration-300 text-lg">
+              <button className="flex items-center px-3 py-1 md:px-5 md:py-3 rounded-lg bg-transparent border border-[#42A4FF] text-[#42A4FF] group-hover:bg-[#42A4FF] group-hover:text-white transition duration-300 text-lg">
                 Read More <FaArrowRight className="ml-2" />
               </button>
             </div>

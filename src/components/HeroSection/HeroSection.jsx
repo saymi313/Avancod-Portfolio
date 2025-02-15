@@ -2,12 +2,12 @@ import image from '../../assets/Section-Image.png';
 
 const HeroSection = () => {
   return (
-    <section className="w-full bg-[#E1F0FF] min-h-screen flex items-center">
-      <div className="container mx-auto px-5 md:px-12 lg:px-20 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <section className="w-full bg-[#E1F0FF] flex items-center py-20">
+      <div className="container mx-auto px-5 md:px-12 lg:px-20">
+        <div className="flex flex-col md:flex-row items-center gap-10">
           
-          {/* Left Content */}
-          <div className="text-center md:text-left">
+          {/* Left Content - 40% Width */}
+          <div className="w-full md:w-[40%] text-center md:text-left">
             <h1 className="text-3xl sm:text-5xl xl:text-6xl font-bold text-[#00386C] tracking-tight leading-tight">
               Building the Digital <br className="hidden sm:block" /> Future
             </h1>
@@ -21,14 +21,15 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right Image */}
-          <div className="flex justify-center">
+          {/* Right Image - 60% Width */}
+          <div className="w-full md:w-[60%] flex justify-center">
             <img 
               src={image} 
-              className="w-full max-w-[450px] sm:max-w-[500px] md:max-w-[550px] lg:max-w-[600px] object-cover"
+              className="w-full max-w-[450px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[750px] xl:max-w-[850px] object-cover"
               alt="Hero Image"
             />
           </div>
+
         </div>
       </div>
     </section>

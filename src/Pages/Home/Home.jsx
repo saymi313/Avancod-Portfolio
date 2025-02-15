@@ -13,7 +13,9 @@ const Home = () => {
         <div className="mt-10">
         <Services/>
         </div>
+        <div>
         <CustomerReviews/>
+        </div>
     </div>
   )
 }
