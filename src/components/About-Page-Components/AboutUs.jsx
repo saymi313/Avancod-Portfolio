@@ -7,6 +7,12 @@ import Commitment from '../../assets/commitment.png'
 const AboutUs = () => {
     return (
         <section className="w-full max-w-6xl mx-auto px-5 py-10">
+             <div className="text-center mb-6 px-4">
+                <h1 className="text-[#00386C] text-4xl font-extrabold">About us</h1>
+                <p className="text-[#4A4A4A] text-lg md:text-xl">
+                Avancod here Innovation Meets Precision – Powering Businesses with Tech & Finance.
+                </p>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
 
             
