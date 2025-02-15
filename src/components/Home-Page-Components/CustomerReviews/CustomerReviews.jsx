@@ -1,7 +1,7 @@
-import Projects from '../../assets/project-plan.png';
-import Customer from '../../assets/Customer-Satisfaction.png';
-import Raise from '../../assets/raise.png';
-import Business from '../../assets/timeline.png';
+import Projects from '../../../assets/project-plan.png';
+import Customer from '../../../assets/Customer-Satisfaction.png';
+import Raise from '../../../assets/raise.png';
+import Business from '../../../assets/timeline.png';
 
 const CustomerReviews = () => {
   return (

@@ -1,8 +1,8 @@
-import Google from '../../assets/google.png';
-import Trello from '../../assets/Trello.png';
-import Monday from '../../assets/Monday.png';
-import Notion from '../../assets/Notion.png';
-import Slack from '../../assets/Slack.png';
+import Google from '../../../assets/google.png';
+import Trello from '../../../assets/Trello.png';
+import Monday from '../../../assets/Monday.png';
+import Notion from '../../../assets/Notion.png';
+import Slack from '../../../assets/Slack.png';
 
 const ImageGallery = () => {
   return (
