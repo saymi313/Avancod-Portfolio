@@ -2,6 +2,7 @@ import CustomerReviews from "../../components/Home-Page-Components/CustomerRevie
 import HeroSection from "../../components/Home-Page-Components/HeroSection/Heroection"
 import ImageGallery from "../../components/Home-Page-Components/ImageGallery/ImageGallery"
 import Projects from "../../components/Home-Page-Components/Projects/Projects"
+import Testimonial from "../../components/Home-Page-Components/Testimonial/Testimonial"
 import Services from "../../components/Services/Services"
 
 
@@ -19,6 +20,7 @@ const Home = () => {
         <CustomerReviews/>
         </div>
         <Projects/>
+        <Testimonial/>
     </div>
   )
 }

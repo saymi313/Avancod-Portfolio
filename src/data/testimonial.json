@@ -1,0 +1,8 @@
+[
+    { "id": 1, "name": "John Doe", "role": "Developer", "img": "https://randomuser.me/api/portraits/men/32.jpg" },
+    { "id": 2, "name": "Saymi", "role": "CEO Saymistic", "img": "https://randomuser.me/api/portraits/men/52.jpg" },
+    { "id": 3, "name": "Alex", "role": "Designer", "img": "https://randomuser.me/api/portraits/men/62.jpg" },
+    { "id": 4, "name": "Emma", "role": "Product Manager", "img": "https://randomuser.me/api/portraits/women/50.jpg" },
+    { "id": 5, "name": "Liam", "role": "Marketing Head", "img": "https://randomuser.me/api/portraits/men/45.jpg" }
+  ]
+  

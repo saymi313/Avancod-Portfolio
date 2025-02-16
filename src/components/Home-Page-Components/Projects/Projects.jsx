@@ -33,9 +33,8 @@ const Projects = () => {
           <div key={index} className="relative h-[500px] md:h-[400px]">
             {/* Background blue div */}
             <div
-              className={`absolute ${
-                index % 2 === 0 ? "right-[12%]" : "left-[12%]"
-              } w-[45%] h-[85%] bottom-[-5%] bg-[#00386C] rounded-md z-0`}
+              className={`absolute ${index % 2 === 0 ? "right-[12%]" : "left-[12%]"
+                } w-[45%] h-[85%] bottom-[-5%] bg-[#00386C] rounded-md z-0`}
             />
 
             {/* Image container */}
@@ -49,20 +48,18 @@ const Projects = () => {
 
             {/* glassmorphism content */}
             <div
-              className={`absolute ${
-                index % 2 === 0 ? "left-[0%]" : "right-[0%]"
-              } w-[55%] h-[70%] top-[25%] z-5 rounded-2xl overflow-hidden`}
+              className={`absolute ${index % 2 === 0 ? "left-[0%]" : "right-[0%]"
+                } w-[55%] h-[70%] top-[25%] z-5 rounded-2xl overflow-hidden`}
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[#6bb2f5] via-[#42A4FF] to-white opacity-80"></div>
               <div className="absolute inset-0 backdrop-blur-sm"></div>
               <div
-                className={`relative h-full p-8 flex flex-col justify-center ${
-                  index % 2 === 0 ? "mr-[10%]" : "ml-[15%]"
-                }`}
-              >
+  className={`relative  h-full px-10 flex flex-col justify-center ${index % 2 === 0 ? "mr-[0%]" : "ml-[15%]"}`}
+>
+
                 <h3 className="text-lg font-medium text-white">Featured Project</h3>
                 <h2 className="text-2xl font-bold text-[#00386C] mt-2">{project.title}</h2>
-                <p className="text-[#00386C]/90 mt-4 leading-relaxed">{project.description}</p>
+                <p className="text-[#00386C]/90 mt-4 leading-relaxed max-w-[500px]">{project.description}</p>
                 <div className="mt-6 flex gap-4">
                   <a
                     href={project.demoLink}
@@ -82,6 +79,11 @@ const Projects = () => {
           </div>
         ))}
       </div>
+
+
+
+
+      
       <div className="flex justify-center mt-10 gap-6 items-center">
         <button
           onClick={prevPage}
@@ -102,6 +104,16 @@ const Projects = () => {
         </button>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+    
   )
 }
 

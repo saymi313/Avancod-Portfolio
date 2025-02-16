@@ -109,10 +109,10 @@ const ContactUsForm = () => {
                         <textarea placeholder="Write your message..." className="border p-3 rounded-md w-full mt-4 h-24"></textarea>
 
                         {/* Send Button */}
-<div className="flex justify-end">
-<button className="bg-[#42A4FF] w-[18%]  text-white font-semibold px-6 py-3 rounded-3xl mt-7 ">Send Message</button>
+                        <div className="flex justify-end">
+                            <button className="bg-[#42A4FF] w-[100%] md:w-[20%]  text-white font-semibold px-6 py-3 rounded-3xl mt-7 ">Send Message</button>
 
-</div>
+                        </div>
 
                     </div>
                 </div>
