@@ -10,7 +10,7 @@ const Testimonial = () => {
 
   return (
     <div className="w-full h-auto  flex flex-col items-center relative">
-                <h1 className="text-3xl text-[#00386C] font-bold">See what our customer say about us</h1>
+                <h1 className="text-3xl text-[#00386C] font-bold text-center">See what our customer say about us</h1>
                 <p className="text-[#737373] text-center max-w-3xl mt-2">Innovative, secure, and scalable—exactly what we needed! Their blockchain expertise brought transparency to our financial records. Full-stack development was spot-on, ensuring a smooth user experience. Would definitely collaborate again!</p>
 
       {/* Swiper Carousel */}
