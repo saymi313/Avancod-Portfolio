@@ -2,3 +2,13 @@
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
 
+@font-face {
+    font-family: 'Azonix';
+    src: url('/Azonix.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-azonix {
+    font-family: 'Azonix', sans-serif;
+}

@@ -1,10 +1,10 @@
 import ContactUsForm from "../../components/Contact-Page-Components/ContactUsForm"
-import HeroSection from "../../components/Contact-Page-Components/HeroSection"
+// import HeroSection from "../../components/Contact-Page-Components/HeroSection"
 
 const Contact = () => {
   return (
     <div>
-      <HeroSection/>
+      {/* <HeroSection/> */}
       <ContactUsForm/>  
     </div>
   )

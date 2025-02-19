@@ -12,9 +12,9 @@ const HeroSection = () => {
       {/* Content - Fully Visible */}
       <div className="relative z-10 flex justify-center items-center h-full text-center">
        <div className="mb-10"> 
-        <h1 className="text-6xl text-[#00386C] font-bold">Building the Digital Future</h1>
+        <h1 className="text-6xl text-[#00386C]  font-azonix">Building the Digital Future</h1>
        <p className="mt-10 text-[20px] font-semibold max-w-[550px] mx-auto">We develop intelligent, seamless, and secure software to accelerate your growth.</p>
-       <button className="bg-[#42A4FF] text-white px-15 py-5 mt-6">Get Started</button>
+       <button className="bg-[#42A4FF] text-white px-4 py-2 md:px-15 md:py-5 mt-6">Get Started</button>
        </div>
       </div>
     </div>
